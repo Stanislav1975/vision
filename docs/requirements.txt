@@ -4,3 +4,4 @@ sphinx-copybutton>=0.3.1
 matplotlib
 numpy
 -e git+git://github.com/pytorch/pytorch_sphinx_theme.git#egg=pytorch_sphinx_theme
+pillow>=10.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
